@@ -6,3 +6,6 @@ source ./install-functions.sh
 banner "Installing Homebrew"
 install_homebrew
 
+banner "Installing Browsers"
+install_browsers
+
