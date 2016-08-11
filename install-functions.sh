@@ -32,3 +32,17 @@ function install_homebrew() {
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 }
 
+function install_javascript_tools() {
+    brew install node
+
+    npm install --global grunt-cli
+    npm install --global gulp-cli
+}
+
+function install_java_and_tools() {
+    brew cask install java
+    brew cask install intellij-idea-ce
+
+    brew install gradle
+    brew install maven
+}

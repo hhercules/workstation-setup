@@ -21,3 +21,9 @@ install_database_tools
 banner "Installing File Sharing Tools"
 install_file_sharing_tools
 
+banner "Installing JavaScript Tools"
+install_javascript_tools
+
+banner "Installing Java and Tools"
+install_java_and_tools
+
