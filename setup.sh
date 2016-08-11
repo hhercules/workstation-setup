@@ -48,3 +48,6 @@ install_text_editors
 banner "Installing Utilities"
 install_utilities
 
+banner "Installing Virtualization Tools"
+install_virtualization_tools
+

@@ -12,6 +12,3 @@ brew install the_silver_searcher
 
 brew install macvim
 
-# Emulation tools
-
-brew cask install virtualbox

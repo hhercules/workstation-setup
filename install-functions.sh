@@ -88,3 +88,12 @@ function install_utilities() {
     brew cask install shiftit
 }
 
+function install_virtualization_tools() {
+    brew cask install virtualbox
+
+    brew cask install vagrant
+    vagrant plugin install vagrant-vbguest
+
+    brew cask install docker    
+}
+
