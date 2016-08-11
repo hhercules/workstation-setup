@@ -56,6 +56,12 @@ function install_markdown_editor() {
     brew cask install macdown
 }
 
+function install_media_tools() {
+    brew cask install 4k-video-downloader
+    brew cask install soundflower
+    brew cask install vlc
+}
+
 function install_source_code_management_tools() {
     brew install git
 
