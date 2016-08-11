@@ -1,71 +1,113 @@
 # Workstation Setup
 
-This project automates the process of setting up a new Pivotal Labs machine using a simple [Bash](https://www.gnu.org/software/bash/) script.
+This project automates the process of setting up a new Mac OS X based development machine using a simple [Bash](https://www.gnu.org/software/bash/) script.
 
-**Warning: the automation script is currently aggressive about what it does and will overwrite vim configurations, bash-it configurations, etc.**
+It was inspired by work done on [Pivotal Labs' Workstation Setup](https://github.com/pivotal/workstation-setup), which has been open sourced so they can be used and modified by anyone.
 
-## Getting Started
+I created this fork of that project because the Pivotal Workstation Setup is very opinionated on configuration settings and will **override** certain configurations (e.g. my `vim` configurations)
 
-- Make sure you are running [El Capitan](https://itunes.apple.com/us/app/os-x-el-capitan/id1018109117)
-- Install [Xcode 7](https://itunes.apple.com/us/app/xcode/id497799835)
+## Pre-Requisites
 
-Open up the OS X Terminal and run the following commands:
+In order to use this, you will need:
+ 
+* To be running [Mac OS X El Capitan](https://itunes.apple.com/us/app/os-x-el-capitan/id1018109117)
+* To have an account with [`sudo`](https://en.wikipedia.org/wiki/Sudo) access
 
-```sh
-mkdir -p ~/workspace
-cd ~/workspace
-git clone https://github.com/pivotal/workstation-setup.git
-cd workstation-setup
+
+## Installation
+
+To install, simply open up the OS X Terminal and run the following commands:
+ 
+```
+$ mkdir -p ~/workspace
+$ cd ~/workspace
+$ git clone https://github.com/rmkiriako/workstation-setup.git
+$ cd workstation-setup
+$ ./setup.sh
 ```
 
-### Engineering Machine
+## What's Installed?
 
-If you're setting up an engineering machine run the following:
+### Browsers
 
-```sh
-./engineer.sh
-```
+* Firefox
+* Google Chrome
 
-The list of Engineering applications is found in: [applications-common.sh] (https://github.com/pivotal/workstation-setup/blob/master/scripts/applications-common.sh)
+### CD / DVD
 
-### Designer Machine
+* Burn
+* DVD Styler
 
-If you're setting up a design machine run the following:
+### Cloud
 
-```sh
-./designer.sh
-```
+* Cloud Foundry CLI
 
-In addition to the Engineering applications, this script also installs the list of Design applications found in: [applications-designer.sh]  (https://github.com/pivotal/workstation-setup/blob/master/scripts/applications-designer.sh)
+### Communication
 
-## Having problems?
+* CoRD
+* Screenhero
+* Slack
+* Skype
+* Teamviewer
 
-If you're having problems using the setup script, please let us know by [opening an issue](https://github.com/pivotal/workstation-setup/issues/new).
+### Datbase
 
-## Customizing
+* RoboMongo MongoDB Client	
+* SQuirreL SQL Client
 
-If you'd like to customize this project for a project's use:
+### File Sharing
 
-- Fork the project
-- Edit the shells scripts to your liking
-- Profit
+* Dropbox
+* Google Drive
 
-## Frequently Asked Questions
+### Java Development
 
-### Is it okay to run `./designer.sh` command again?
+* Gradle
+* IntelliJ IDEA (Community Edition)
+* Java
+* Maven
 
-Yes. The script does not reinstall apps that are already on the machine.
+### JavaScript Development
 
-### What about sprout-wrap?
+* Grunt
+* Gulp
+* NodeJS
 
-This project is provided as an alternative to the [pivotal-sprout/sprout-wrap](https://github.com/pivotal-sprout/sprout-wrap) project. You are encouraged to use that project if it better suits your needs.
+### Markdown Editor
 
-The goals of this projects is to keep the setup process simple and up to date:
+* MacDown
 
-- A bash script is easy to manage
-- Everything is in one repository
-- The project name is informative
-- Keep it easy to fork and customize
-- It has very limited requirements: git, bash and Ruby are all available on OS X by default
+### Media
 
-Please see [this GitHub issue](https://github.com/pivotal/workstation-setup/issues/3) for more discussion on the subject.
+* 4K Video Downloader
+* Soundflower
+* VLC
+
+### PDF
+
+* PDF Split and Merge
+
+### Source Code Management
+
+* Git
+* SourceTree
+
+### Text Editors
+
+* Sublime Text
+* TextMate
+
+### Utilities
+
+* Flycut
+* iTerm 2
+* Postman
+* RightZoom	
+* ShiftIt
+
+### Virtualization
+
+* Docker
+* Vagrant
+* Virtualbox
+
