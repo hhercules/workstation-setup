@@ -36,6 +36,9 @@ install_markdown_editor
 banner "Installing Media Tools"
 install_media_tools
 
+banner "Installing PDF Tools"
+install_pdf_tools
+
 banner "Installing Source Code Management Tools"
 install_source_code_management_tools
 
