@@ -45,3 +45,6 @@ install_source_code_management_tools
 banner "Installing Text Editors"
 install_text_editors
 
+banner "Installing Utilities"
+install_utilities
+

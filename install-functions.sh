@@ -80,3 +80,11 @@ function install_text_editors() {
     brew cask install textmate
 }
 
+function install_utilities() {
+    brew cask install flycut
+    brew cask install iterm2
+    brew cask install postman
+    brew cask install rightzoom
+    brew cask install shiftit
+}
+
