@@ -9,3 +9,6 @@ install_homebrew
 banner "Installing Browsers"
 install_browsers
 
+banner "Installing Communication Tools"
+install_communication_tools
+

@@ -15,12 +15,6 @@ brew install the_silver_searcher
 
 brew cask install iterm2
 
-# Communication
-
-brew cask install slack
-brew cask install screenhero
-brew cask install skype
-
 # Text Editors
 
 brew cask install macdown
