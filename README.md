@@ -26,6 +26,11 @@ $ cd workstation-setup
 $ ./setup.sh
 ```
 
+**IMPORTANT:**
+
+* While all of this is mostly automated, you will get prompted for your password several times, so hang around and keep an eye on the screen.
+
+
 ### Optional Installs
 
 * [Git Aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases)
