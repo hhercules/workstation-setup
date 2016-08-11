@@ -46,3 +46,13 @@ function install_java_and_tools() {
     brew install gradle
     brew install maven
 }
+
+function install_source_code_management_tools() {
+    brew install git
+
+    brew cask install sourcetree
+
+    brew tap git-duet/tap
+    brew install git-duet
+}
+
