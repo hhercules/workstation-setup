@@ -5,6 +5,11 @@ function install_browsers() {
     brew cask install google-chrome
 }
 
+function install_cd_and_dvd_tools() {
+    brew cask install burn
+    brew cask install dvdstyler
+}
+
 function install_cloudfoundry_cli() {
     brew tap cloudfoundry/tap
     brew install cf-cli

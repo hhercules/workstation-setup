@@ -9,6 +9,9 @@ install_homebrew
 banner "Installing Browsers"
 install_browsers
 
+banner "Installing CD/DVD Tools"
+install_cd_and_dvd_tools
+
 banner "Installing CloudFoundry CLI"
 install_cloudfoundry_cli
 
