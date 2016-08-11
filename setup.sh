@@ -15,3 +15,9 @@ install_cloudfoundry_cli
 banner "Installing Communication Tools"
 install_communication_tools
 
+banner "Installing Database Tools"
+install_database_tools
+
+banner "Installing File Sharing Tools"
+install_file_sharing_tools
+

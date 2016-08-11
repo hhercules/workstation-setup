@@ -18,6 +18,16 @@ function install_communication_tools() {
     brew cask install teamviewer
 }
 
+function install_database_tools() {
+   brew cask install robomongo
+   brew cask install squirrelsql
+}
+
+function install_file_sharing_tools() {
+    brew cask install dropbox
+    brew cask install google-drive
+}
+
 function install_homebrew() {
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 }
