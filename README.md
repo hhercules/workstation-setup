@@ -26,6 +26,34 @@ $ cd workstation-setup
 $ ./setup.sh
 ```
 
+### Optional Installs
+
+* [Git Aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases)
+    *  A couple of aliases that I use frequently can be installed by running the below command: 
+
+    ```
+    $ cd ~/workspace/workstation-setup
+    $ ./setup-git-aliases.sh
+    ```
+
+* Microsoft Office for Mac
+    * 2011: 
+
+    ```
+    $ brew cask install caskroom/versions/microsoft-office-2011
+    ```
+    
+    * 2016:
+
+    ```
+    $ brew cask install microsoft-office
+    ```
+    
+
+* [Oracle SQL Developer](http://www.oracle.com/technetwork/developer-tools/sql-developer/what-is-sqldev-093866.html)
+    * At this time, it is not possible to install this through [Homebrew](http://brew.sh), so you will have to [download it from Oracle](http://www.oracle.com/technetwork/developer-tools/sql-developer/overview/index.html) and install it manually
+
+
 ## What's Installed?
 
 ### Browsers
