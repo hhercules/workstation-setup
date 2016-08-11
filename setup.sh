@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 source ./banner-function.sh
+source ./configure-startup-applications-function.sh
 source ./install-functions.sh
 
 banner "Installing Homebrew"
@@ -50,4 +51,9 @@ install_utilities
 
 banner "Installing Virtualization Tools"
 install_virtualization_tools
+
+banner "Configuring Startup Applications"
+configure_startup_applications
+
+banner "WORKSTATION SETUP IS COMPLETE"
 
