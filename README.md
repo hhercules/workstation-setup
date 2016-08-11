@@ -78,7 +78,7 @@ $ ./setup.sh
 * Skype
 * Teamviewer
 
-### Datbase
+### Database
 
 * RoboMongo MongoDB Client	
 * SQuirreL SQL Client
