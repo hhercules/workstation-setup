@@ -17,7 +17,6 @@ brew cask install iterm2
 
 # Text Editors
 
-brew cask install macdown
 brew install macvim
 
 # Emulation tools

@@ -27,6 +27,9 @@ install_javascript_tools
 banner "Installing Java and Tools"
 install_java_and_tools
 
+banner "Installing Markdown Editor"
+install_markdown_editor
+
 banner "Installing Source Code Management Tools"
 install_source_code_management_tools
 

@@ -47,6 +47,10 @@ function install_java_and_tools() {
     brew install maven
 }
 
+function install_markdown_editor() {
+    brew cask install macdown
+}
+
 function install_source_code_management_tools() {
     brew install git
 
