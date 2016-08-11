@@ -56,3 +56,8 @@ function install_source_code_management_tools() {
     brew install git-duet
 }
 
+function install_text_editors() {
+    brew cask install sublime-text
+    brew cask install textmate
+}
+

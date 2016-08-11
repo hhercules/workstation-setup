@@ -29,3 +29,7 @@ install_java_and_tools
 
 banner "Installing Source Code Management Tools"
 install_source_code_management_tools
+
+banner "Installing Text Editors"
+install_text_editors
+

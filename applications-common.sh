@@ -18,8 +18,6 @@ brew cask install iterm2
 # Text Editors
 
 brew cask install macdown
-brew cask install sublime-text
-brew cask install textmate
 brew install macvim
 
 # Emulation tools
