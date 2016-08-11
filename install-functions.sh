@@ -5,6 +5,11 @@ function install_browsers() {
     brew cask install google-chrome
 }
 
+function install_cloudfoundry_cli() {
+    brew tap cloudfoundry/tap
+    brew install cf-cli
+}
+
 function install_communication_tools() {
     brew cask install cord
     brew cask install screenhero
