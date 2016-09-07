@@ -30,6 +30,7 @@ function install_database_tools() {
 
 function install_file_sharing_tools() {
     brew cask install dropbox
+    brew cask install filezilla
     brew cask install google-drive
 }
 
@@ -46,7 +47,7 @@ function install_javascript_tools() {
 
 function install_java_and_tools() {
     brew cask install java
-    brew cask install intellij-idea-ce
+    brew cask install intellij-idea
 
     brew install gradle
     brew install maven
@@ -58,6 +59,7 @@ function install_markdown_editor() {
 
 function install_media_tools() {
     brew cask install 4k-video-downloader
+    brew cask install flash-player
     brew cask install soundflower
     brew cask install vlc
 }
@@ -70,9 +72,11 @@ function install_source_code_management_tools() {
     brew install git
 
     brew cask install sourcetree
+}
 
-    brew tap git-duet/tap
-    brew install git-duet
+function install_terminal_utilities() {
+    brew install the_silver_searcher
+    brew install wget
 }
 
 function install_text_editors() {
@@ -81,6 +85,7 @@ function install_text_editors() {
 }
 
 function install_utilities() {
+    brew cask install 1password
     brew cask install flycut
     brew cask install iterm2
     brew cask install postman
@@ -89,11 +94,10 @@ function install_utilities() {
 }
 
 function install_virtualization_tools() {
+    brew cask install docker
     brew cask install virtualbox
 
     brew cask install vagrant
     vagrant plugin install vagrant-vbguest
-
-    brew cask install docker    
 }
 

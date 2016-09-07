@@ -46,6 +46,9 @@ install_source_code_management_tools
 banner "Installing Text Editors"
 install_text_editors
 
+banner "Installing Terminal Commands"
+install_terminal_commands
+
 banner "Installing Utilities"
 install_utilities
 
